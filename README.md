@@ -1,9 +1,9 @@
-# terraform-docker-exam
+# terraform-docker-exam  
 
 
 
 
-##create .env file
+## create .env file
 
  sample env file  
  ____________________________________________________
@@ -19,7 +19,7 @@ POSTGRES_PASSWORD=postgres_password_here
 POSTGRES_DB=postgres_dbpassword_here  
 
 
-##create terraform.tfvars
+## create terraform.tfvars
 sample terraform.tfvars
 ________________________________________________
 
