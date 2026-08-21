@@ -1,8 +1,9 @@
 # terraform-docker-exam
 
-create .env file
+###create .env file
 
-## sample env file
+ sample env file  
+ ____________________________________________________
 USER_UID=1000  
 USER_GID=1000  
 GITEA__database__DB_TYPE=postgres  
@@ -15,8 +16,9 @@ POSTGRES_PASSWORD=postgres_password_here
 POSTGRES_DB=postgres_dbpassword_here  
 
 
-create terraform.tfvars
-## sample terraform.tfvars
+###create terraform.tfvars
+sample terraform.tfvars
+________________________________________________
 
   #network_name = "exam-network"  
   web_data_volume_name = "exam-web-data"  
