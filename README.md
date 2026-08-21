@@ -3,10 +3,10 @@
 
 
 
-## create .env file
+create .env file for docker compose file  
 
- sample env file  
- ____________________________________________________
+sample env file:  
+
 USER_UID=1000  
 USER_GID=1000  
 GITEA__database__DB_TYPE=postgres  
@@ -19,9 +19,9 @@ POSTGRES_PASSWORD=postgres_password_here
 POSTGRES_DB=postgres_dbpassword_here  
 
 
-## create terraform.tfvars
-sample terraform.tfvars
-________________________________________________
+create terraform.tfvars under terraform folder
+
+sample terraform.tfvars:  
 
   #network_name = "exam-network"  
   web_data_volume_name = "exam-web-data"  
