@@ -13,3 +13,17 @@ GITEA__database__PASSWD=gitea
 POSTGRES_USER=postgres_user_here  
 POSTGRES_PASSWORD=postgres_password_here  
 POSTGRES_DB=postgres_dbpassword_here  
+
+
+create terraform.tfvars
+## sample terraform.tfvars
+
+  #network_name = "exam-network"  
+  web_data_volume_name = "exam-web-data"  
+  nginx_image = "nginx:1.27.4"  
+  curl_image = "curlimages/curl:8.17.0"  
+  nginx_host_port = 8081  
+  username = "username"  
+  repository_name = "terraform-docker-exam"  
+  repository_private = true  
+  gitea_token = "token_here"  

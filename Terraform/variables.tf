@@ -1,6 +1,6 @@
 variable "username" {
   type = string
-  default = "miyoming"
+  default = "username"
 }
 variable "repository_name" {
   type = string
